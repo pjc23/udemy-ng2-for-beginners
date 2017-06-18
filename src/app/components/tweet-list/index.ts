@@ -5,7 +5,7 @@ import { TweetService } from './../../services/tweet';
   selector: 'tweets',
   templateUrl: 'index.html',
   styles: [`
-    .tweetItem {
+    .TweetList-TweetItem {
       list-style-type: none;
       margin-bottom: 10px;
     }

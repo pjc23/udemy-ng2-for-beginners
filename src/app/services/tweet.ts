@@ -5,7 +5,7 @@ export class TweetService {
         author: 'Donald Trump',
         handle: '@theRealDonaldTrump',
         photo: 'http://lorempixel.com/100/100/people?1123131',
-        body: 'Despite the negative covfefe',
+        body: 'Despite the negative press covfefe',
         likes: 3264,
       },
       {

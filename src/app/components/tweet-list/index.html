@@ -1,0 +1,11 @@
+<ul class='TweetList'>
+  <li *ngFor="let tweet of tweets" class='tweetItem'>
+    <tweet
+      [author]="tweet.author"
+      [handle]="tweet.handle"
+      [body]="tweet.body"
+      [photo]="tweet.photo"
+      [likes]="tweet.likes">
+    </tweet>
+  </li>
+</ul>
